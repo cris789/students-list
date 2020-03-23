@@ -11,12 +11,14 @@ import { MaterialModule } from '../app/material-module/material-module.module';
 import {MatInputModule} from '@angular/material/input';
 import {MatTableModule} from '@angular/material/table';
 import {FormsModule} from '@angular/forms';
+import { HeaderComponent } from './header/header.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    TableComponent
+    TableComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
