@@ -12,6 +12,9 @@ import {MatInputModule} from '@angular/material/input';
 import {MatTableModule} from '@angular/material/table';
 import {FormsModule} from '@angular/forms';
 import { HeaderComponent } from './header/header.component';
+import { MatIconModule } from '@angular/material/icon';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatTooltipModule } from '@angular/material/tooltip';
 
 
 @NgModule({
@@ -29,7 +32,10 @@ import { HeaderComponent } from './header/header.component';
     MatTableModule,
     FormsModule,
     MatPaginatorModule,
-    MatSortModule
+    MatSortModule,
+    MatIconModule,
+    MatToolbarModule,
+    MatTooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent]
