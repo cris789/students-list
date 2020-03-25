@@ -15,6 +15,7 @@ import { HeaderComponent } from './header/header.component';
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatTooltipModule } from '@angular/material/tooltip';
+import { MatGridListModule } from '@angular/material/grid-list';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { MatTooltipModule } from '@angular/material/tooltip';
     MatSortModule,
     MatIconModule,
     MatToolbarModule,
-    MatTooltipModule
+    MatTooltipModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
